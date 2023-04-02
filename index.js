@@ -1,11 +1,7 @@
 const contacts = require('./contacts');
 
-// console.log(contacts.listContacts);
-// console.log(contacts.getContactById);
-// console.log(contacts.removeContact);
-// console.log(contacts.addContact);
-
 const { Command } = require('commander');
+
 const program = new Command();
 program
   .option('-a, --action <type>', 'choose action')
